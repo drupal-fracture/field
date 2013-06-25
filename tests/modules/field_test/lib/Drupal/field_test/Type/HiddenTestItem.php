@@ -2,17 +2,15 @@
 
 /**
  * @file
- * Contains \Drupal\field_test\Type\TestItem.
+ * Contains \Drupal\field_test\Type\HiddenTestItem.
  */
 
 namespace Drupal\field_test\Type;
 
-use Drupal\field\Plugin\field\field_type\LegacyConfigFieldItem;
-
 /**
  * Defines the 'test_field' entity field item.
  */
-class TestItem extends LegacyConfigFieldItem {
+class HiddenTestItem extends TestItem {
 
   /**
    * Property definitions of the contained properties.
